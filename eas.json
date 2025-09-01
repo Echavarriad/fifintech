@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "version": ">= 16.17.4",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": false,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "developmentClient": false,
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "Ibarraroldanabogados@gmail.com",
+        "ascAppId": "6751608991",
+        "appleTeamId": "7PUG29XB83"
+      }
+    }
+  }
+}
